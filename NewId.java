@@ -68,7 +68,7 @@ public class NewId extends Id{
     }
     
     void maleOrFemale(String idNumber){
-        int monthAndDay=Integer.valueOf(String.valueOf(idNumber.charAt(2))+String.valueOf(idNumber.charAt(3))+String.valueOf(idNumber.charAt(4)));
+        int monthAndDay=Integer.valueOf(String.valueOf(idNumber.charAt(4))+String.valueOf(idNumber.charAt(5))+String.valueOf(idNumber.charAt(6)));
         if(monthAndDay>500){
             System.out.println("[2]Gender :Female");
         }
